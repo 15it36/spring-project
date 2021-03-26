@@ -11,4 +11,9 @@ public class HelloController {
 		return "Hello User";
 	}
 
+	@RequestMapping("/new-url")
+	public String new_api(){
+		return "New Api";
+	}
+
 }
